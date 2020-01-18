@@ -2,7 +2,6 @@ from progress.bar import Bar
 from riddle import Riddle
 import time
 
-_riddle = Riddle(key=27)
 _exposedData = input("Enter Text to Encrypt: ")
 _encryptedText = None
 _encryptionStatus = "ENCRYPTING"
@@ -12,6 +11,8 @@ for i in range(20):
     time.sleep(.25)
     bar.next()
 bar.finish()
+
+_riddle = Riddle(key=27)
 _encryptedText = _riddle.encrypt(obj=_exposedData)
 
 print("\nEncrypted Data:\n\n",_encryptedText,"\n")

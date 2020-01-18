@@ -2,6 +2,8 @@ from progress.bar import Bar
 from riddle import Riddle
 import time
 
+import pkg_resources
+
 _exposedData = input("Enter Text to Encrypt: ")
 _encryptedText = None
 _encryptionStatus = "ENCRYPTING"

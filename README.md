@@ -10,7 +10,7 @@ USE:
 4. once finished, the program will spit out the encrypted text 
 
 VERSIONS:
-Python 3.6.6
-PIP 19.3.1
-Pyinstaller 4.0.dev0+g555c5e81.mod ( this is the only version that allowed for the program to execute as an .exe )
-Pipenv 2018.11.26
+*Python 3.6.6
+*PIP 19.3.1
+*Pyinstaller 4.0.dev0+g555c5e81.mod ( this is the only version that allowed for the program to execute as an .exe )
+*Pipenv 2018.11.26
